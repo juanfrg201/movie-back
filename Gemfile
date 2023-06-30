@@ -5,6 +5,7 @@ ruby "3.1.1"
 
 
 gem "rails", "~> 7.0.5", ">= 7.0.5.1"
+gem 'active_model_serializers', '~> 0.10.13'
 
 
 gem "sqlite3", "~> 1.4"
@@ -23,6 +24,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 5.0', '>= 5.0.1' #para tester en rails
   gem 'factory_bot_rails', '~> 6.2' #crear esquemas guias de nuestros modelos
   gem 'shoulda-matchers', '~> 5.0' #testear modelos facil
+  gem 'active_model_serializers', '~> 0.10.13'
 end
 
 group :development do
